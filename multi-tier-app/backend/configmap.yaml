@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: backend-config
+data:
+  DATABASE_HOST: mysql
+  DATABASE_USER: appuser
+  DATABASE_PASSWORD: apppass
+  DATABASE_NAME: appdb
