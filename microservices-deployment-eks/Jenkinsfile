@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Git Checkout') {
             steps {
-                git branch: 'latest', url: 'https://github.com/SushantOps/10-Tier-MicroService-Appliction.git'
+                git branch: 'feature/kubernetes-project1', url: 'https://github.com/rahulbollu/kubernetes-projects.git'
             }
         }
 
